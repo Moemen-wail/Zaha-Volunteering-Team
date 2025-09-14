@@ -1,0 +1,712 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap');
+
+* {    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; ;
+body {
+   background-color: #d9f8d1f6;
+   animation: fadeInPage 1.2s ease;
+  }
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+   
+@keyframes fadeInPage {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 1500px;     
+    padding: 0 0.1vw;
+}
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    
+}
+.navigation a {
+    text-decoration: none;
+    color: #000000;
+    font-size: larger;
+    font-family: 'Poppins', serif !important;
+    font-weight: 700;
+}
+.navigation a:hover {
+    color: #8ed13f;
+}
+hr {
+    opacity:15%;
+}
+
+.msub {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.name {
+    font-size: 2.75rem;
+}
+
+.v {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000000;
+    font-family: 'Poppins', serif !important;
+    margin-right: auto;
+}
+.v:hover {
+    color: #8ed13f;
+}
+
+.ourvision {
+    font-size: 2.7rem; 
+    font-weight: 700;
+    font-family: 'Poppins', serif;
+    margin-right: 50rem;
+ }
+
+.ourvision2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family:'Poppins', serif;
+}
+    
+.aboutus {
+    font-family: 'Poppins', serif;
+    font-size: 2rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+}
+ .vimg {
+    width: 475px;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+.name {
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0.5rem;
+
+}
+.btns {
+    display: flex;
+    gap: 1rem; 
+    justify-content: center; 
+    align-self:center;
+    
+}
+.au {
+    font-size: 1.6rem;
+    display: flex;
+    gap: 1rem;
+    color: #000000;
+    margin-top: 1.5rem;
+    background-color: #8ed13f;
+    color: #ffffff;
+    border-radius: 24px;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 1rem;
+    word-spacing: 0.2rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 16px #8ed13f;
+    transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+    margin-top: 0.8rem;
+}
+.au:hover {
+    background-color: #ffffff;
+    color: #8ed13f;
+    transform: translateY(-3px) scale(1.01);
+    box-shadow: 0 8px 24px #8ed13f;
+ }
+.become {
+    font-size: 1.6rem;
+    display: flex;
+    gap: 1rem;
+    color: #000000;
+    margin-top: 1.5rem;
+    background-color: #8ed13f;
+    color: #ffffff;
+    border-radius: 24px;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 1rem;
+    word-spacing: 0.2rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 16px #8ed13f;
+    transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+    margin-top: 0.8rem;
+}
+.become:hover {
+    background-color: #ffffff;
+    color: #8ed13f;
+    transform: translateY(-3px) scale(1.01);
+    box-shadow: 0 8px 24px #8ed13f;
+ }
+
+.main{ 
+    scroll-margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 22rem auto 5rem auto;
+    max-width: 1200px;
+    gap: 6rem;
+    border-left: #8ed13f solid 4px;
+    padding-left: 160px;
+}
+.ourphoto {
+     width: 650px;
+     display: block;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    margin-left: auto;
+}
+
+.mtext {
+    max-width: 500px;
+}
+.ourvision {
+    font-size: 3.5rem; 
+    font-weight: 650;
+    white-space: nowrap;
+    color: #8ed13f;
+}
+.ourvision2 {
+    font-size: 1.5rem;
+    font-weight: 575;
+}
+.v {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}
+
+.Founders {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Poppins', serif;
+    margin-bottom: 4rem;
+    margin-top: 1.5rem;
+}
+
+.founders {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.teammembers {
+    font-family: 'Poppins', serif;
+}
+.ibrahim-card {
+    background: #ffffff;
+    padding: 0.7rem;
+    border-radius: 12px;
+    width: 335px;
+    text-align: center;
+}
+.ibrahim-img {
+    width: 100%;
+    max-width: 330px;
+    height: 300px;
+    border-radius: 12px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+.ibrahim-info h2 {
+    font-size: 1.rem;
+    margin-bottom: 0.3rem;
+    font-weight: 700;
+    color: #8ed13f;
+}
+.zeina-card {
+    background: #ffffff;
+    padding: 0.7rem;
+    border-radius: 12px;
+    width: 335px;
+    text-align: center;
+}
+.zeina-img {
+    width: 100%;
+    max-width: 330px;
+    height: 300px;
+    border-radius: 12px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+.zeina-info h2 {
+    font-size: 1.rem;
+    margin-bottom: 0.3rem;
+    font-weight: 700;
+    color: #8ed13f;
+}
+.yara-card {
+    background: #ffffff;
+    padding: 0.7rem;
+    border-radius: 12px;
+    width: 335px;
+    text-align: center;
+}
+.yara-img {
+    width: 100%;
+    max-width: 330px;
+    height: 300px;
+    border-radius: 12px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+.yara-info h2 {
+    font-size: 1.rem;
+    margin-bottom: 0.3rem;
+    font-weight: 700;
+    color: #8ed13f;
+}
+
+
+.Members {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Poppins', serif;
+    margin-bottom: 4rem;
+    margin-top: 6rem;
+}
+
+.members {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.pearla-card {
+    background: #ffffff;
+    padding: 0.7rem;
+    border-radius: 12px;
+    width: 335px;
+    text-align: center;
+}
+.pearla-img {
+    width: 100%;
+    max-width: 330px;
+    height: 300px;
+    border-radius: 12px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+.pearla-info h2 {
+    font-size: 1.rem;
+    margin-bottom: 0.3rem;
+    font-weight: 700;
+    color: #8ed13f;
+}
+.mohammed-card {
+    background: #ffffff;
+    padding: 0.7rem;
+    border-radius: 12px;
+    width: 335px;
+    text-align: center;
+}
+.mohammed-img {
+    width: 100%;
+    max-width: 330px;
+    height: 300px;
+    border-radius: 12px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+.mohammed-info h2 {
+    font-size: 1.rem;
+    margin-bottom: 0.3rem;
+    font-weight: 700;
+    color: #8ed13f;
+}
+.moemen-card {
+    background: #ffffff;
+    padding: 0.7rem;
+    border-radius: 12px;
+    width: 335px;
+    text-align: center;
+}
+.moemen-img {
+    width: 100%;
+    max-width: 330px;
+    height: 300px;
+    border-radius: 12px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+.moemen-info h2 {
+    font-size: 1.rem;
+    margin-bottom: 0.3rem;
+    font-weight: 700;
+    color: #8ed13f;
+}
+
+
+.Memberss {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Poppins', serif;
+    margin-bottom: 4rem;
+    margin-top: 1.5rem;
+}
+.memberss {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.memories {
+    margin-bottom: 16rem;
+}
+.teammemories {
+    text-align: center;
+    font-size: 3.3rem;
+    font-family: 'Poppins', serif;
+    margin-bottom: 0.5rem;
+    margin-top: 15rem;
+}
+.teammemories2 {
+    color: #8ed13f;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Poppins', serif;
+    margin-bottom: 2.5rem;
+    margin-top: 0.5rem;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.gallery img {
+  object-fit: cover;
+    border-radius: 12px;
+}
+.memory1 {
+    width: 450px;
+    height: 275px;
+    border-radius: 12px;
+}
+.memory2 {
+    width: 700px;
+    height: 275px;
+    border-radius: 12px;
+}
+.memory3 {
+    width: 350px;
+    height: 330px;
+    border-radius: 12px;
+}
+.memory4 {
+    width: 350px;
+    height: 330px;
+    border-radius: 12px;
+}
+.memory5 {
+    width: 350px;
+    height: 330px;
+    border-radius: 12px;
+}
+.memory6 {
+    width: 500px;
+    height: 275px;
+    border-radius: 12px;
+}
+
+.becomeavolunteer-title {
+    text-align: center;
+    font-size: 3.3rem;
+    font-family: 'Poppins', serif;
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+}
+.volunteering-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem auto;
+    width: 100%;
+    max-width: 2000px;
+}
+.volunteering-form iframe {
+    width: 100%;
+    min-width: 350px;
+    max-width: 1900px;
+    height: 1000px;
+    border: 6px solid #8ed13f;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px #8ed13f33;
+    background: #d9f8d1f6;
+}
+
+footer {
+    background-color: #b4d7a8;
+    width: 100%;
+    min-height: 220px;
+    padding-bottom: 2rem;
+    margin-top: 8rem;
+} 
+
+.contactus {
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Poppins', serif;
+    margin-left: 7.5rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+.cu {
+    font-weight: 700;
+    margin-bottom: 4rem;
+} 
+.cu-info {
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}   
+.location {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: inherit;
+}
+.location img {
+    margin-right: 6.25px;
+    width: 40px;
+    height: 40px;
+}
+.location:hover {
+    color: #ffffff;
+}
+
+.phone {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: inherit;
+}
+.phone img {
+    margin-right: 11px;
+    width: 35px;
+    height: 35px;
+}
+.email {
+    margin-top: 0.2rem;
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: inherit;
+}
+.email img {
+    margin-right: 11px;
+    width: 35px;
+    height: 35px;
+}
+
+.cu-info2 {
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: -8.25rem;
+}   
+.whatsapp {
+    margin-top: 0.2rem;
+    margin-left: -5rem;
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: inherit;
+    text-decoration: none;
+}
+.whatsapp img {
+    margin-right: 11px;
+    width: 35px;
+    height: 35px;
+}
+.whatsapp:hover {
+    color: #ffffff;
+}
+.instagram {
+    margin-top: 0.2rem;
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: inherit;
+    text-decoration: none;
+}
+.instagram img {
+    margin-right: 11px;
+    width: 35px;
+    height: 35px;
+}
+.instagram:hover {
+    color: #ffffff;
+}
+
+.footer2 {
+    background: #d9f8d1f6;
+    width: 100vw;
+    min-height: 0px;
+    height: 22px;
+    text-align: right;
+    font-size: 0.7rem;
+    font-family: 'Poppins', serif;
+    color: #000000;
+    padding: 0 1.5rem 0 0;
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@media (max-width: 1023px) {
+    header {
+        text-align: center;
+        font-size: larger;
+}
+#becomeavolunteer {
+    display: none !important;
+}
+.v {
+    margin-left: 1.5rem;
+}
+.aboutus {
+    text-align: center;
+    gap: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+
+}
+.main {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 15rem auto;
+    padding-left: 0;
+    border-left: none;
+}
+.ourphoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4rem;
+    margin-top: 15rem;
+    object-fit: cover;
+    width: 85%;
+    height: 85%;
+}
+.ourvision {
+    font-size: 5.5rem; 
+}
+.mtext {
+    max-width: 75%;
+    position: relative;
+    margin-bottom: 15rem;
+}
+.mtext::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50px;
+    height: 100%;
+    width: 8px;
+    background: #8ed13f;
+    border-radius: 2px;
+  }
+
+.ibrahim-card,
+  .zeina-card,
+  .yara-card,
+  .pearla-card,
+  .mohammed-card,
+  .moemen-card {
+    width: 370px;
+    font-size: 1.35rem;
+  }
+  
+.ibrahim-img,
+.zeina-img,
+.yara-img,
+.pearla-img,
+.mohammed-img,
+.moemen-img {
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    height: 300px;
+}
+.cu-info2 {
+    margin-left: 10rem;
+}
+.teammemories {
+    font-size: 4.2rem;
+}
+.teammemories2 {
+    font-size: 2rem;
+}
+.Founders, .Members {
+    font-size: 4rem;
+}
+
+ .volunteering-form {
+    margin-bottom: 26rem !important;
+ }
+}
